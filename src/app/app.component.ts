@@ -6,5 +6,23 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angularpagelifecyclehooks_aug';
+  
+  subjectname = "js"
+
+  constructor(){
+    setTimeout(()=>{
+      this.subjectname = "ar";
+    },5000)
+  }
+
+
+
+
+  // btnclick(){
+  //   this.subjectname = "ar";
+  // }
+
+
+
+
 }
