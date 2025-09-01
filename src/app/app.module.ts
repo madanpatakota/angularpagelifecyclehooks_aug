@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { CompAComponent } from './comp-a/comp-a.component';
 import { CompbComponent } from './compb/compb.component';
 import { TruncatePipe } from './truncate.pipe';
+import { HighlightDirective } from './highlight.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     CompAComponent,
     CompbComponent,
-    TruncatePipe
+    TruncatePipe,
+    HighlightDirective
   ],
   imports: [
     BrowserModule
